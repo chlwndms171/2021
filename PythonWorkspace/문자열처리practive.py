@@ -13,6 +13,7 @@ print("Red\tApple") #\t = 탭
 
 
 
+
 ####문자열 포맷
 #방법 4
 age = 20

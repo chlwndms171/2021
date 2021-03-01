@@ -10,7 +10,7 @@ print(5/3)
 
 print(not(1 != 3)) 
 
-print((2 + 3) * 5)
+print((2 + 3) * 5) 
 number = 2 + 3 * 4
 print(number)
 number +=2 # = number + 2

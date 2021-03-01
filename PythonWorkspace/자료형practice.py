@@ -9,7 +9,7 @@ print(str(age)+ "살인", name, "은 어른일까요?", isadult)
 # ,로 구분하면 앞 뒤로 공백이 생기고, +로 연결하면 공백이 안 생김.
 
 print(5<10)
-print(not True)
+print(not True) 
 print(not(5<10))
 print(False)
 print("풍선")
