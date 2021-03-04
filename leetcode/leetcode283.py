@@ -1,3 +1,15 @@
+#결국 버블정렬로 풀었다
+class Solution(object):
+    def moveZeroes(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: None Do not return anything, modify nums in-place instead.
+        """
+        
+        for i in range(len(nums) - 1, 0, -1):
+            for j in range(i):
+                if nums[j]==0:
+                    nums[j], nums[j + 1] = nums[j + 1], nums[j]
 '''
 nums = [0, 1, 0, 3, 12]
 
@@ -14,7 +26,7 @@ for i in nums:
 '''
 
     
-'''이거 왜 틀렸을까?'''
+'''이거 왜 틀렸을까?(삽입정렬인뎅)
 class Solution(object):
     def moveZeroes(self, nums):
         """
@@ -28,3 +40,4 @@ class Solution(object):
                 nums[i], nums[i+1] = nums[i+1], nums[i]
                 i+=1
         return nums
+'''
